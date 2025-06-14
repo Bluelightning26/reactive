@@ -35,19 +35,26 @@ body {
   background: var(--background);
   color: var(--foreground);
   padding: auto;
-}h1, h2, h3, h4, h5, h6 {
-  color: --var(--foreground);
+  margin: auto;
   font-family: var(--font-style);
-  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: --var(--foreground);
 }
 
 big {
 	font-size: 100rem;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 button {
-  background: var(--background-button);
-  color: var(--foreground);
+  background: lightblue;
+  color: white;
   border: 1px solid var(--foreground);
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;

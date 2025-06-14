@@ -21,7 +21,7 @@ setCount(count + 1);
 
 
 
-<p><b>Here is a nice trinket I recently worked on: </b></p>
+<p><b>Here is a nice lil trinket I recently worked on: </b></p>
 <Image src="/penguinpenguin.png" alt="A screenshot of my trinket" width="500" height="500" />
 <p>Features:</p>
 
