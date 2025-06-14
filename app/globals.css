@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --background-button: rgb(39, 104, 255)
+  --background-button: lightblue;
   --font-style: "Funnel Display, sans-serif";
 }
 
@@ -36,7 +36,7 @@ body {
   color: var(--foreground);
   padding: auto;
   margin: auto;
-  font-family: var(--font-style);
+  font-family: Funnel Display, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,8 +53,8 @@ h1 {
 }
 
 button {
-  background: lightblue;
-  color: white;
+  background: var(--background-button);
+  color: var (var(--background));
   border: 1px solid var(--foreground);
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
