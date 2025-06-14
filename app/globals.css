@@ -60,3 +60,7 @@ button {
   border-radius: 0.25rem;
   cursor: pointer;
 }
+
+img {
+  border-radius: 0.5rem;
+}
